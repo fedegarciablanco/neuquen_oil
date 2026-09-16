@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Calidad: revisar",
+      "type": "shell",
+      "command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+      "args": ["-m", "ruff", "check", "."],
+      "problemMatcher": []
+    },
+    {
+      "label": "Pruebas: ejecutar",
+      "type": "shell",
+      "command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+      "args": ["-m", "pytest"],
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}
