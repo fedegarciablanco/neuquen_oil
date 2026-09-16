@@ -4,3 +4,5 @@ geopandas
 rasterio
 requests
 pandas
+lxml
+openpyxl
